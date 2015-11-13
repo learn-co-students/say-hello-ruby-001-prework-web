@@ -1,5 +1,9 @@
 # Build your say_hello method here
 
-say_hello = "hello guys! what's up?"
+def say_hello()
+  puts "What is your name?"
+  name = gets.chomp
+  puts "Hello, #{name}!"
+end
 
 puts say_hello
