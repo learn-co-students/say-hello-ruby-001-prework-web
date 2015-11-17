@@ -1,5 +1,8 @@
-require_relative '../say_hello'
+def say_hello(name = "Ruby Programmer")
+ 
+  puts "Hello #{name}!"
 
-RSpec.configure do |config|
-  # config here
 end
+say_hello
+say_hello ("Kent Beck")
+
