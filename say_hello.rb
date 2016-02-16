@@ -1,8 +1,3 @@
-def say_hello (name)
-  if name == nil
-    puts "Hello Ruby Programmer!"
-  else
+def say_hello (name="Ruby Programmer")
     puts "Hello #{name}!"
-  end
-
 end
