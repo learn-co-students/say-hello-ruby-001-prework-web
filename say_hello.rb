@@ -1,1 +1,7 @@
-# Build your say_hello method here
+def say_hello(name = "default")
+  if name == "default"
+    puts "Hello Ruby Programmer!"
+  else
+    puts "Hello #{name}!"
+  end
+end
